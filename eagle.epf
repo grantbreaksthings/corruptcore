@@ -1,0 +1,19 @@
+[Eagle]
+Version="08 02 02"
+Platform="Linux"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/granthaack/eagle/piboy/piboy_new.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="17 28 1216 627"
+State=1
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
