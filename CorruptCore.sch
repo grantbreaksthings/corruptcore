@@ -8805,6 +8805,188 @@ Vishay IHLP
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOT23-3" library_version="1">
+<description>SOT23-3</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO-92" library_version="1">
+<description>&lt;b&gt;TO 92&lt;/b&gt;</description>
+<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
+<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="TO-92-EZ" library_version="1">
+<wire x1="-0.7863" y1="2.5485" x2="-2.0946" y2="-1.651" width="0.2032" layer="21" curve="111.098962"/>
+<wire x1="2.0945" y1="-1.651" x2="0.7863" y2="2.548396875" width="0.2032" layer="21" curve="111.099507"/>
+<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.2032" layer="21"/>
+<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.2032" layer="21"/>
+<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<pad name="2" x="0" y="1.905" drill="0.8128" diameter="1.8796" stop="no"/>
+<pad name="3" x="1.27" y="0" drill="0.8128" diameter="1.8796" stop="no"/>
+<text x="0" y="3.048" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.905" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<circle x="0" y="1.905" radius="1.02390625" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="1.02390625" width="0" layer="30"/>
+<circle x="0" y="1.905" radius="0.508" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="0.508" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="1.02390625" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN" library_version="1">
+<description>&lt;h3&gt; NPN Transistor&lt;/h3&gt;
+Allows current flow when high potential at base.</description>
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="2.54" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-2.286" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TRANS_NPN" prefix="Q" library_version="1">
+<description>&lt;h3&gt;NPN transistor&lt;/h3&gt;
+&lt;p&gt;Current controlled devices typically used to amplify current or used as a switch.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    BC547 - 
+    &lt;a href="http://www.sparkfun.com/products/8928"&gt;COM-08928&lt;/a&gt;
+    (TO-92 45V 100mA) (1.Collector 2.Base 3.Emitter)
+  &lt;/li&gt;
+  &lt;li&gt;
+    2N3904 - 
+    &lt;a href="http://www.sparkfun.com/products/521"&gt;COM-00521&lt;/a&gt;
+    (TO-92 40V 200mA) (1.Emitter 2.Base 3.Collector)
+  &lt;/li&gt;
+  &lt;li&gt;
+    P2N2222A - 
+    &lt;a href="http://www.sparkfun.com/products/12852"&gt;COM-12852&lt;/a&gt;
+    (TO-92 40V 600mA) (1.Collector 2.Base 3.Emitter)
+  &lt;/li&gt;
+
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-MMBT2222AL" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08049"/>
+<attribute name="VALUE" value="600mA/40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-2N3904" package="TO-92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08447"/>
+<attribute name="VALUE" value="200mA/40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-P2N2222A" package="TO-92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-09536"/>
+<attribute name="VALUE" value="600mA/40V"/>
+</technology>
+</technologies>
+</device>
+<device name="-MMBTA42" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-09116"/>
+<attribute name="VALUE" value="500mA/300V"/>
+</technology>
+</technologies>
+</device>
+<device name="-2N3904-EZ" package="TO-92-EZ">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="TRANS-08447"/>
+<attribute name="VALUE" value="200mA/40V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8911,10 +9093,6 @@ Vishay IHLP
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" value="150"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="QP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
-<part name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
-<part name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
-<part name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
 <part name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
 <part name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" value=""/>
@@ -8952,10 +9130,27 @@ Vishay IHLP
 <part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBTA42" value=""/>
+<part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBTA42" value=""/>
+<part name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBTA42" value=""/>
+<part name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="TRANS_NPN" device="-MMBTA42" value=""/>
+<part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="QP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
+<part name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
+<part name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
+<part name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="269.24" y="-58.42" size="1.778" layer="94">Schematic: Corrupt Core</text>
+<text x="269.24" y="-63.5" size="1.778" layer="94">Author: Grant Haack</text>
+<text x="269.24" y="-68.58" size="1.778" layer="94">Rev: 0.1</text>
+<text x="269.24" y="-76.2" size="1.778" layer="94">License: Creative Commons Attribution-ShareAlike
+CC BY-SA</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="40.64" y="10.16"/>
@@ -9054,10 +9249,6 @@ Vishay IHLP
 <instance part="R3" gate="G$1" x="15.24" y="-5.08" rot="R90"/>
 <instance part="GND31" gate="1" x="15.24" y="-27.94"/>
 <instance part="GND32" gate="1" x="40.64" y="73.66" rot="R90"/>
-<instance part="QP1" gate="1" x="78.74" y="30.48" rot="R180"/>
-<instance part="QP2" gate="1" x="78.74" y="25.4" rot="R180"/>
-<instance part="QP3" gate="1" x="78.74" y="20.32" rot="R180"/>
-<instance part="QP4" gate="1" x="78.74" y="-20.32" rot="R180"/>
 <instance part="JP1" gate="G$1" x="297.18" y="17.78" rot="R90"/>
 <instance part="JP2" gate="G$1" x="317.5" y="17.78" rot="R90"/>
 <instance part="JP3" gate="G$1" x="337.82" y="17.78" rot="R90"/>
@@ -9095,6 +9286,18 @@ Vishay IHLP
 <instance part="P+12" gate="1" x="93.98" y="-60.96" rot="R270"/>
 <instance part="P+13" gate="1" x="66.04" y="-60.96" rot="R270"/>
 <instance part="P+14" gate="1" x="38.1" y="-60.96" rot="R270"/>
+<instance part="Q1" gate="G$1" x="279.4" y="-10.16" rot="MR270"/>
+<instance part="Q2" gate="G$1" x="312.42" y="-10.16" rot="MR270"/>
+<instance part="Q3" gate="G$1" x="279.4" y="-30.48" rot="MR270"/>
+<instance part="Q4" gate="G$1" x="312.42" y="-30.48" rot="MR270"/>
+<instance part="GND39" gate="1" x="289.56" y="-12.7" rot="MR270"/>
+<instance part="GND40" gate="1" x="322.58" y="-12.7" rot="MR270"/>
+<instance part="GND41" gate="1" x="289.56" y="-33.02" rot="MR270"/>
+<instance part="GND42" gate="1" x="322.58" y="-33.02" rot="MR270"/>
+<instance part="QP1" gate="1" x="269.24" y="-12.7" rot="MR180"/>
+<instance part="QP2" gate="1" x="302.26" y="-12.7" rot="MR180"/>
+<instance part="QP3" gate="1" x="269.24" y="-33.02" rot="MR180"/>
+<instance part="QP4" gate="1" x="302.26" y="-33.02" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -9374,6 +9577,26 @@ Vishay IHLP
 <pinref part="GND@POT1" gate="1" pin="P"/>
 <wire x1="17.78" y1="-55.88" x2="27.94" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="GND38" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="GND39" gate="1" pin="GND"/>
+<wire x1="287.02" y1="-12.7" x2="284.48" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="E"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+<wire x1="320.04" y1="-12.7" x2="317.5" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="E"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="287.02" y1="-33.02" x2="284.48" y2="-33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="E"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+<wire x1="320.04" y1="-33.02" x2="317.5" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -10226,8 +10449,15 @@ Vishay IHLP
 <net name="QP4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB5(SCK)"/>
-<pinref part="QP4" gate="1" pin="P"/>
-<wire x1="66.04" y1="-20.32" x2="76.2" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-20.32" x2="71.12" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="71.12" y="-20.32"/>
+<label x="71.12" y="-20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q4" gate="G$1" pin="B"/>
+<wire x1="312.42" y1="-27.94" x2="312.42" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="312.42" y="-25.4"/>
+<label x="312.42" y="-25.4" size="1.778" layer="95" rot="MR90"/>
 </segment>
 </net>
 <net name="POT3" class="0">
@@ -10285,29 +10515,74 @@ Vishay IHLP
 <label x="53.34" y="-66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="QP2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC4(ADC4/SDA)"/>
-<wire x1="66.04" y1="27.94" x2="73.66" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="27.94" x2="73.66" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="QP2" gate="1" pin="P"/>
-<wire x1="73.66" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
+<junction x="71.12" y="27.94"/>
+<label x="71.12" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="B"/>
+<wire x1="312.42" y1="-7.62" x2="312.42" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="312.42" y="-5.08"/>
+<label x="312.42" y="-5.08" size="1.778" layer="95" rot="MR90"/>
+</segment>
+</net>
+<net name="QP1" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC3(ADC3)"/>
+<wire x1="66.04" y1="30.48" x2="71.12" y2="30.48" width="0.1524" layer="91"/>
+<junction x="71.12" y="30.48"/>
+<label x="71.12" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="279.4" y1="-7.62" x2="279.4" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="279.4" y="-5.08"/>
+<label x="279.4" y="-5.08" size="1.778" layer="95" rot="MR90"/>
+</segment>
+</net>
+<net name="QP3" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="66.04" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
+<junction x="71.12" y="25.4"/>
+<label x="71.12" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q3" gate="G$1" pin="B"/>
+<wire x1="279.4" y1="-27.94" x2="279.4" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="279.4" y="-25.4"/>
+<label x="279.4" y="-25.4" size="1.778" layer="95" rot="MR90"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="Q1" gate="G$1" pin="C"/>
+<wire x1="274.32" y1="-12.7" x2="271.78" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="QP1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC3(ADC3)"/>
-<pinref part="QP1" gate="1" pin="P"/>
-<wire x1="66.04" y1="30.48" x2="76.2" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
+<wire x1="307.34" y1="-12.7" x2="304.8" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="QP2" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="66.04" y1="25.4" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="25.4" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<wire x1="274.32" y1="-33.02" x2="271.78" y2="-33.02" width="0.1524" layer="91"/>
 <pinref part="QP3" gate="1" pin="P"/>
-<wire x1="71.12" y1="20.32" x2="76.2" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="C"/>
+<wire x1="307.34" y1="-33.02" x2="304.8" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="QP4" gate="1" pin="P"/>
 </segment>
 </net>
 </nets>
@@ -10316,6 +10591,10 @@ Vishay IHLP
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
