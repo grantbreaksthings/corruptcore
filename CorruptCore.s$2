@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.2">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6298,6 +6298,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="SER" x="10.16" y="7.62" length="middle"/>
 <pin name="QA" x="10.16" y="12.7" length="middle"/>
 <pin name="VCC" x="10.16" y="17.78" length="middle"/>
+<text x="-5.08" y="0" size="1.778" layer="94">74HC595</text>
 </symbol>
 <symbol name="ULN2803A">
 <wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
@@ -6322,6 +6323,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="3C" x="10.16" y="10.16" length="middle"/>
 <pin name="2C" x="10.16" y="15.24" length="middle"/>
 <pin name="1C" x="10.16" y="20.32" length="middle"/>
+<text x="-5.08" y="0" size="1.778" layer="94">ULN2803A</text>
 </symbol>
 </symbols>
 <devicesets>
