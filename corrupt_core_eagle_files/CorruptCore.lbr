@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -292,6 +292,33 @@
 <rectangle x1="4.826" y1="3.8608" x2="5.334" y2="5.334" layer="51"/>
 <rectangle x1="4.826" y1="-5.334" x2="5.334" y2="-3.8608" layer="51"/>
 </package>
+<package name="SOT23-5L">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;&lt;p&gt;
+package type OT</description>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="51"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="51"/>
+<wire x1="-0.522" y1="0.81" x2="0.522" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-0.428" y1="-0.81" x2="-0.522" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="0.522" y1="-0.81" x2="0.428" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="-1.328" y1="-0.81" x2="-1.422" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.422" y1="-0.81" x2="1.328" y2="-0.81" width="0.1524" layer="21"/>
+<wire x1="1.328" y1="0.81" x2="1.422" y2="0.81" width="0.1524" layer="21"/>
+<wire x1="-1.422" y1="0.81" x2="-1.328" y2="0.81" width="0.1524" layer="21"/>
+<smd name="1" x="-0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="3" x="0.95" y="-1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="4" x="0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<smd name="5" x="-0.95" y="1.3" dx="0.55" dy="1.2" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
+<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ULN2803A">
@@ -318,8 +345,9 @@
 <pin name="2C" x="10.16" y="15.24" length="middle"/>
 <pin name="1C" x="10.16" y="20.32" length="middle"/>
 <text x="-5.08" y="0" size="1.778" layer="94">ULN2803A</text>
+<text x="-5.08" y="5.08" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
-<symbol name="SN74HC595N">
+<symbol name="SNX4HC595">
 <wire x1="-10.16" y1="20.32" x2="-10.16" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-20.32" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-20.32" x2="10.16" y2="20.32" width="0.254" layer="94"/>
@@ -341,6 +369,20 @@
 <pin name="QA" x="10.16" y="12.7" length="middle"/>
 <pin name="VCC" x="10.16" y="17.78" length="middle"/>
 <text x="-7.62" y="0" size="1.778" layer="94">SNx4HC595</text>
+<text x="-5.08" y="5.08" size="1.778" layer="94">&gt;NAME</text>
+</symbol>
+<symbol name="LTC1799">
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="VCC" x="-10.16" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" length="middle" rot="R180"/>
+<pin name="SET" x="-10.16" y="-7.62" length="middle" rot="R180"/>
+<pin name="DIV" x="10.16" y="-7.62" length="middle"/>
+<pin name="OUT" x="10.16" y="2.54" length="middle"/>
+<text x="-5.08" y="-7.62" size="1.778" layer="94">LTC1799</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -403,7 +445,7 @@
 </deviceset>
 <deviceset name="SNX4HC595">
 <gates>
-<gate name="G$1" symbol="SN74HC595N" x="0" y="0"/>
+<gate name="G$1" symbol="SNX4HC595" x="0" y="0"/>
 </gates>
 <devices>
 <device name="DIL16" package="DIL16">
@@ -447,6 +489,25 @@
 <connect gate="G$1" pin="SRCLK" pad="11"/>
 <connect gate="G$1" pin="SRCLR" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC1799">
+<gates>
+<gate name="G$1" symbol="LTC1799" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5L">
+<connects>
+<connect gate="G$1" pin="DIV" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="5"/>
+<connect gate="G$1" pin="SET" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
