@@ -161,6 +161,7 @@
 <pin name="SER" x="10.16" y="7.62" length="middle"/>
 <pin name="QA" x="10.16" y="12.7" length="middle"/>
 <pin name="VCC" x="10.16" y="17.78" length="middle"/>
+<text x="-5.08" y="0" size="1.778" layer="94">74HC595</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -202,6 +203,24 @@
 </gates>
 <devices>
 <device name="" package="DIL16">
+<connects>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="OE" pad="13"/>
+<connect gate="G$1" pin="QA" pad="15"/>
+<connect gate="G$1" pin="QB" pad="1"/>
+<connect gate="G$1" pin="QC" pad="2"/>
+<connect gate="G$1" pin="QD" pad="3"/>
+<connect gate="G$1" pin="QE" pad="4"/>
+<connect gate="G$1" pin="QF" pad="5"/>
+<connect gate="G$1" pin="QG" pad="6"/>
+<connect gate="G$1" pin="QH" pad="7"/>
+<connect gate="G$1" pin="QH'" pad="9"/>
+<connect gate="G$1" pin="RCLK" pad="12"/>
+<connect gate="G$1" pin="SER" pad="14"/>
+<connect gate="G$1" pin="SRCLK" pad="11"/>
+<connect gate="G$1" pin="SRCLR" pad="10"/>
+<connect gate="G$1" pin="VCC" pad="16"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

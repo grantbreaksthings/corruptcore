@@ -196,6 +196,18 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="SN74HC595N">
+<gates>
+<gate name="G$1" symbol="SN74HC595N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL16">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
