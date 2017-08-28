@@ -26,3 +26,6 @@ Pinouts are also provided for 3 potentiometers to be hooked up to the analog inp
 The corrupt core is currently designed to hook up to an empty Arduino programmer for programming. The TX, RX, RESET, 5V, and GND lines are plugged into the appropriate pins on the programmer, and the program can be uploaded just like a regular Arduino.
 
 I realize this is obtuse and a little wierd, and there will be a future revision of the Corrupt Core that works like an Arduino Shield. I'm building it like this as a prototype, and because it makes the corrupt core easy to integrate into the videogame console.
+
+## Notes
+Please note, I do not have any formal training in Electrical Engineering or PCB design. If my schematic or board is terrible, do not hesistate to open an issue and let me know. I'm basically figuring all of this out as I go along.
