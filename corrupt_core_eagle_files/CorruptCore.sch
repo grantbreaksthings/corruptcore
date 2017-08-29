@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.2.1">
+<eagle version="8.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9147,7 +9147,7 @@ Allows current flow when high potential at base.</description>
 <part name="U6" library="CorruptCore" deviceset="ULN2803A" device="SOIC18"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="B2_P1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device=""/>
+<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="10-XX" device="" value="RESET"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U4" library="CorruptCore" deviceset="SNX4HC595" device="SOIC16"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -9210,8 +9210,8 @@ Allows current flow when high potential at base.</description>
 <part name="TX" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
 <part name="RX" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
 <part name="RESET" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="5V@PROG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="GND@PROG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="5V@PROG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" value="5V"/>
+<part name="GND@PROG" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device="" value="GND"/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND@POT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
@@ -9357,10 +9357,10 @@ CC BY-SA</text>
 <instance part="TX" gate="P" x="35.56" y="-33.02" rot="R180"/>
 <instance part="RX" gate="P" x="35.56" y="-38.1" rot="R180"/>
 <instance part="RESET" gate="P" x="35.56" y="-43.18" rot="R180"/>
-<instance part="5V@PROG" gate="P" x="43.18" y="-33.02"/>
-<instance part="GND@PROG" gate="P" x="43.18" y="-38.1"/>
-<instance part="GND35" gate="1" x="60.96" y="-38.1" rot="R90"/>
-<instance part="P+11" gate="1" x="60.96" y="-33.02" rot="R270"/>
+<instance part="5V@PROG" gate="P" x="43.18" y="-30.48"/>
+<instance part="GND@PROG" gate="P" x="43.18" y="-40.64"/>
+<instance part="GND35" gate="1" x="60.96" y="-40.64" rot="R90"/>
+<instance part="P+11" gate="1" x="60.96" y="-30.48" rot="R270"/>
 <instance part="GND@POT1" gate="P" x="15.24" y="-55.88"/>
 <instance part="5V@POT1" gate="P" x="15.24" y="-60.96"/>
 <instance part="POT1" gate="P" x="15.24" y="-66.04"/>
@@ -9469,7 +9469,7 @@ CC BY-SA</text>
 </segment>
 <segment>
 <pinref part="5V@PROG" gate="P" pin="P"/>
-<wire x1="45.72" y1="-33.02" x2="58.42" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-30.48" x2="58.42" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -9605,7 +9605,7 @@ CC BY-SA</text>
 </segment>
 <segment>
 <pinref part="GND@PROG" gate="P" pin="P"/>
-<wire x1="45.72" y1="-38.1" x2="58.42" y2="-38.1" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-40.64" x2="58.42" y2="-40.64" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
