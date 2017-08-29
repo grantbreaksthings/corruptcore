@@ -1615,6 +1615,39 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
+<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
+<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
+This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOT23-3" library_version="1">
+<description>SOT23-3</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1873,10 +1906,6 @@ design rules under a new name.</description>
 <element name="RESET_LED" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0603" value="" x="-82" y="-997"/>
 <element name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" value="150" x="-82" y="-1003"/>
 <element name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0805" value="150" x="-82" y="-1009"/>
-<element name="QP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-71" y="-1103"/>
-<element name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-71" y="-1129"/>
-<element name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-71" y="-1155"/>
-<element name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-71" y="-1181"/>
 <element name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" value="" x="-87" y="-1191"/>
 <element name="JP2" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" value="" x="-98" y="-1191"/>
 <element name="JP3" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" package="SMT-JUMPER_2_NC_TRACE_NO-SILK" value="" x="-109" y="-1191"/>
@@ -1902,6 +1931,22 @@ design rules under a new name.</description>
 <element name="POT3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-152" y="-1511"/>
 <element name="5V@POT3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-152" y="-1537"/>
 <element name="GND@POT3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-152" y="-1563"/>
+<element name="Q1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" value="" x="-168" y="-1573">
+<attribute name="PROD_ID" value="TRANS-09116" x="-168" y="-1573" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" value="" x="-174" y="-1573">
+<attribute name="PROD_ID" value="TRANS-09116" x="-174" y="-1573" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q3" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" value="" x="-180" y="-1573">
+<attribute name="PROD_ID" value="TRANS-09116" x="-180" y="-1573" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT23-3" value="" x="-186" y="-1573">
+<attribute name="PROD_ID" value="TRANS-09116" x="-186" y="-1573" size="1.778" layer="27" display="off"/>
+</element>
+<element name="QP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-175" y="-1589"/>
+<element name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-175" y="-1615"/>
+<element name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-175" y="-1641"/>
+<element name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,1" value="" x="-175" y="-1667"/>
 </elements>
 <signals>
 <signal name="+5V">
@@ -1977,16 +2022,26 @@ design rules under a new name.</description>
 <contactref element="GND@POT2" pad="1"/>
 <contactref element="GND@POT1" pad="1"/>
 <contactref element="S1" pad="1"/>
+<contactref element="Q1" pad="2"/>
+<contactref element="Q2" pad="2"/>
+<contactref element="Q3" pad="2"/>
+<contactref element="Q4" pad="2"/>
+<contactref element="U$5" pad="9"/>
 <wire x1="-152" y1="-1329" x2="-152" y2="-1355" width="0" layer="19" extent="1-1"/>
 <wire x1="-152" y1="-1433" x2="-152" y2="-1355" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.05" y1="-1209" x2="-152" y2="-1329" width="0" layer="19" extent="1-1"/>
 <wire x1="-162.05" y1="-1197" x2="-162.05" y2="-1209" width="0" layer="19" extent="1-1"/>
 <wire x1="-152" y1="-1563" x2="-152" y2="-1433" width="0" layer="19" extent="1-1"/>
+<wire x1="-167.05" y1="-1574" x2="-152" y2="-1563" width="0" layer="19" extent="1-1"/>
+<wire x1="-173.05" y1="-1574" x2="-167.05" y2="-1574" width="0" layer="19" extent="1-1"/>
+<wire x1="-179.05" y1="-1574" x2="-173.05" y2="-1574" width="0" layer="19" extent="1-1"/>
+<wire x1="-185.05" y1="-1574" x2="-179.05" y2="-1574" width="0" layer="19" extent="1-1"/>
 <wire x1="-82" y1="-996.25" x2="-162.05" y2="-1197" width="0" layer="19" extent="1-1"/>
 <wire x1="-77" y1="-996.25" x2="-82" y2="-996.25" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.64" y1="-94.61" x2="-152" y2="-1355" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.77" y1="-86.99" x2="-46.64" y2="-94.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.61" y1="-94.61" x2="-25.77" y2="-86.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.61" y1="-86.99" x2="-25.77" y2="-86.99" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.61" y1="-94.61" x2="-15.61" y2="-86.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-30.48" y1="2.54" x2="-25.77" y2="-86.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.02" y1="10.16" x2="-30.48" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.24" y1="15.24" x2="-33.02" y2="10.16" width="0" layer="19" extent="1-1"/>
@@ -2427,8 +2482,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="QP4">
 <contactref element="IC1" pad="19"/>
-<contactref element="QP4" pad="1"/>
-<wire x1="-25.4" y1="10.16" x2="-71" y2="-1181" width="0" layer="19" extent="1-1"/>
+<contactref element="Q4" pad="1"/>
+<wire x1="-25.4" y1="10.16" x2="-186.95" y2="-1574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="POT3">
 <contactref element="IC1" pad="25"/>
@@ -2452,20 +2507,40 @@ design rules under a new name.</description>
 <contactref element="POT2" pad="1"/>
 <wire x1="-38.1" y1="10.16" x2="-152" y2="-1485" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$8">
+<signal name="QP2">
 <contactref element="IC1" pad="27"/>
-<contactref element="QP2" pad="1"/>
-<wire x1="-45.72" y1="10.16" x2="-71" y2="-1129" width="0" layer="19" extent="1-1"/>
+<contactref element="Q2" pad="1"/>
+<wire x1="-45.72" y1="10.16" x2="-174.95" y2="-1574" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="QP1">
+<contactref element="IC1" pad="26"/>
+<contactref element="Q1" pad="1"/>
+<wire x1="-43.18" y1="10.16" x2="-168.95" y2="-1574" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="QP3">
+<contactref element="IC1" pad="28"/>
+<contactref element="Q3" pad="1"/>
+<wire x1="-48.26" y1="10.16" x2="-180.95" y2="-1574" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$8">
+<contactref element="Q1" pad="3"/>
+<contactref element="QP1" pad="1"/>
+<wire x1="-168" y1="-1571.9" x2="-175" y2="-1589" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
-<contactref element="IC1" pad="26"/>
-<contactref element="QP1" pad="1"/>
-<wire x1="-43.18" y1="10.16" x2="-71" y2="-1103" width="0" layer="19" extent="1-1"/>
+<contactref element="Q2" pad="3"/>
+<contactref element="QP2" pad="1"/>
+<wire x1="-175" y1="-1615" x2="-174" y2="-1571.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
-<contactref element="IC1" pad="28"/>
+<contactref element="Q3" pad="3"/>
 <contactref element="QP3" pad="1"/>
-<wire x1="-48.26" y1="10.16" x2="-71" y2="-1155" width="0" layer="19" extent="1-1"/>
+<wire x1="-175" y1="-1641" x2="-180" y2="-1571.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$12">
+<contactref element="Q4" pad="3"/>
+<contactref element="QP4" pad="1"/>
+<wire x1="-175" y1="-1667" x2="-186" y2="-1571.9" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
