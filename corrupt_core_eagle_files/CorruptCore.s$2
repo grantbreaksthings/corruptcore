@@ -9245,16 +9245,16 @@ Allows current flow when high potential at base.</description>
 <part name="U8" library="CorruptCore" deviceset="LTC1799" device=""/>
 <part name="P+15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="CLK_OUT" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
 <part name="DIV" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="5V@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="GND@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="5V@CLK" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="GND@CLK" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
 <part name="P+16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="FREQSET" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/7" value="user"/>
+<part name="CLKSET" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="0207/7" value="user"/>
 <part name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0805" value="100nF"/>
-<part name="FP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
-<part name="FP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="CPT2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
+<part name="CPT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,8" device=""/>
 <part name="P+17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
@@ -9285,7 +9285,7 @@ CC BY-SA</text>
 <instance part="P+4" gate="1" x="170.18" y="43.18" rot="MR90"/>
 <instance part="U5" gate="G$1" x="220.98" y="53.34"/>
 <instance part="GND7" gate="1" x="193.04" y="33.02" rot="R270"/>
-<instance part="B1_P1" gate="P" x="248.92" y="73.66" rot="R180"/>
+<instance part="B1_P1" gate="P" x="251.46" y="73.66" rot="R180"/>
 <instance part="U3" gate="G$1" x="139.7" y="2.54"/>
 <instance part="GND8" gate="1" x="109.22" y="-15.24" rot="R270"/>
 <instance part="P+5" gate="1" x="170.18" y="20.32" rot="MR90"/>
@@ -9304,13 +9304,13 @@ CC BY-SA</text>
 <instance part="U7" gate="G$1" x="220.98" y="-53.34"/>
 <instance part="GND14" gate="1" x="193.04" y="-73.66" rot="R270"/>
 <instance part="B3_P1" gate="P" x="251.46" y="-33.02" rot="R180"/>
-<instance part="B1_P2" gate="P" x="248.92" y="68.58" rot="R180"/>
-<instance part="B1_P3" gate="P" x="248.92" y="63.5" rot="R180"/>
-<instance part="B1_P4" gate="P" x="248.92" y="58.42" rot="R180"/>
-<instance part="B1_P5" gate="P" x="248.92" y="53.34" rot="R180"/>
-<instance part="B1_P6" gate="P" x="248.92" y="48.26" rot="R180"/>
-<instance part="B1_P7" gate="P" x="248.92" y="43.18" rot="R180"/>
-<instance part="B1_P8" gate="P" x="248.92" y="38.1" rot="R180"/>
+<instance part="B1_P2" gate="P" x="251.46" y="68.58" rot="R180"/>
+<instance part="B1_P3" gate="P" x="251.46" y="63.5" rot="R180"/>
+<instance part="B1_P4" gate="P" x="251.46" y="58.42" rot="R180"/>
+<instance part="B1_P5" gate="P" x="251.46" y="53.34" rot="R180"/>
+<instance part="B1_P6" gate="P" x="251.46" y="48.26" rot="R180"/>
+<instance part="B1_P7" gate="P" x="251.46" y="43.18" rot="R180"/>
+<instance part="B1_P8" gate="P" x="251.46" y="38.1" rot="R180"/>
 <instance part="B2_P2" gate="P" x="251.46" y="15.24" rot="R180"/>
 <instance part="B2_P3" gate="P" x="251.46" y="10.16" rot="R180"/>
 <instance part="B2_P4" gate="P" x="251.46" y="5.08" rot="R180"/>
@@ -9392,16 +9392,16 @@ CC BY-SA</text>
 <instance part="U8" gate="G$1" x="347.98" y="-10.16"/>
 <instance part="P+15" gate="1" x="330.2" y="5.08" rot="MR0"/>
 <instance part="GND15" gate="1" x="317.5" y="5.08" rot="MR180"/>
-<instance part="FREQ" gate="P" x="373.38" y="-7.62" rot="MR0"/>
+<instance part="CLK_OUT" gate="P" x="373.38" y="-7.62" rot="MR0"/>
 <instance part="DIV" gate="P" x="373.38" y="-17.78" rot="MR0"/>
-<instance part="5V@FREQ" gate="P" x="345.44" y="-33.02"/>
-<instance part="GND@FREQ" gate="P" x="345.44" y="-27.94"/>
+<instance part="5V@CLK" gate="P" x="345.44" y="-33.02"/>
+<instance part="GND@CLK" gate="P" x="345.44" y="-27.94"/>
 <instance part="P+16" gate="1" x="358.14" y="-33.02" rot="MR90"/>
 <instance part="GND16" gate="1" x="360.68" y="-27.94" rot="MR270"/>
-<instance part="FREQSET" gate="G$1" x="330.2" y="-27.94" rot="R90"/>
+<instance part="CLKSET" gate="G$1" x="330.2" y="-27.94" rot="R90"/>
 <instance part="C5" gate="G$1" x="325.12" y="0" rot="R270"/>
-<instance part="FP2" gate="P" x="330.2" y="-38.1" rot="R90"/>
-<instance part="FP1" gate="P" x="330.2" y="-43.18" rot="R270"/>
+<instance part="CPT2" gate="P" x="330.2" y="-38.1" rot="R90"/>
+<instance part="CPT1" gate="P" x="330.2" y="-43.18" rot="R270"/>
 <instance part="P+17" gate="1" x="330.2" y="-50.8" rot="MR180"/>
 </instances>
 <busses>
@@ -9488,7 +9488,7 @@ CC BY-SA</text>
 <pinref part="P+14" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="5V@FREQ" gate="P" pin="P"/>
+<pinref part="5V@CLK" gate="P" pin="P"/>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <wire x1="347.98" y1="-33.02" x2="355.6" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
@@ -9503,7 +9503,7 @@ CC BY-SA</text>
 <junction x="330.2" y="0"/>
 </segment>
 <segment>
-<pinref part="FP1" gate="P" pin="P"/>
+<pinref part="CPT1" gate="P" pin="P"/>
 <wire x1="330.2" y1="-45.72" x2="330.2" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="P+17" gate="1" pin="+5V"/>
 </segment>
@@ -9649,7 +9649,7 @@ CC BY-SA</text>
 <wire x1="149.86" y1="-68.58" x2="170.18" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND@FREQ" gate="P" pin="P"/>
+<pinref part="GND@CLK" gate="P" pin="P"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="347.98" y1="-27.94" x2="358.14" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
@@ -9901,56 +9901,56 @@ CC BY-SA</text>
 <net name="B1_P1" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="1C"/>
-<wire x1="231.14" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="73.66" x2="248.92" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="B1_P1" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P2" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="2C"/>
-<wire x1="231.14" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="68.58" x2="248.92" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="B1_P2" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P3" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="3C"/>
-<wire x1="231.14" y1="63.5" x2="246.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="63.5" x2="248.92" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="B1_P3" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P4" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="4C"/>
-<wire x1="231.14" y1="58.42" x2="246.38" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="58.42" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="B1_P4" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P5" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="5C"/>
-<wire x1="231.14" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="53.34" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="B1_P5" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P6" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="6C"/>
-<wire x1="231.14" y1="48.26" x2="246.38" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="48.26" x2="248.92" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="B1_P6" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P7" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="7C"/>
-<wire x1="231.14" y1="43.18" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="43.18" x2="248.92" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="B1_P7" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="B1_P8" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="8C"/>
-<wire x1="231.14" y1="38.1" x2="246.38" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="B1_P8" gate="P" pin="P"/>
 </segment>
 </net>
@@ -10634,7 +10634,7 @@ CC BY-SA</text>
 <segment>
 <pinref part="U8" gate="G$1" pin="OUT"/>
 <wire x1="358.14" y1="-7.62" x2="370.84" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="FREQ" gate="P" pin="P"/>
+<pinref part="CLK_OUT" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -10646,7 +10646,7 @@ CC BY-SA</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="FREQSET" gate="G$1" pin="2"/>
+<pinref part="CLKSET" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="-22.86" x2="330.2" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="SET"/>
 <wire x1="330.2" y1="-17.78" x2="337.82" y2="-17.78" width="0.1524" layer="91"/>
@@ -10654,8 +10654,8 @@ CC BY-SA</text>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="FREQSET" gate="G$1" pin="1"/>
-<pinref part="FP2" gate="P" pin="P"/>
+<pinref part="CLKSET" gate="G$1" pin="1"/>
+<pinref part="CPT2" gate="P" pin="P"/>
 <wire x1="330.2" y1="-35.56" x2="330.2" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
 </net>

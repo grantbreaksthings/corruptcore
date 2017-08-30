@@ -9142,6 +9142,7 @@ Allows current flow when high potential at base.</description>
 <part name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
 <part name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
 <part name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device=""/>
+<part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9298,6 +9299,7 @@ CC BY-SA</text>
 <instance part="QP2" gate="1" x="294.64" y="-12.7" rot="MR180"/>
 <instance part="QP3" gate="1" x="261.62" y="-33.02" rot="MR180"/>
 <instance part="QP4" gate="1" x="294.64" y="-33.02" rot="MR180"/>
+<instance part="GND43" gate="1" x="172.72" y="-68.58" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9598,6 +9600,11 @@ CC BY-SA</text>
 <pinref part="GND42" gate="1" pin="GND"/>
 <wire x1="312.42" y1="-33.02" x2="309.88" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="QH'"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+<wire x1="149.86" y1="-68.58" x2="170.18" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
@@ -9741,7 +9748,7 @@ CC BY-SA</text>
 <segment>
 <pinref part="U$1" gate="G$1" pin="QA"/>
 <wire x1="149.86" y1="68.58" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
-<label x="162.56" y="68.58" size="1.778" layer="95" rot="R180"/>
+<label x="177.8" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="1B"/>
@@ -9892,17 +9899,17 @@ CC BY-SA</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="QH'"/>
-<wire x1="149.86" y1="38.1" x2="175.26" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="38.1" x2="175.26" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="38.1" x2="180.34" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="SER"/>
-<wire x1="175.26" y1="10.16" x2="149.86" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="10.16" x2="149.86" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B2_DAR_IN1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="QA"/>
 <wire x1="149.86" y1="15.24" x2="162.56" y2="15.24" width="0.1524" layer="91"/>
-<label x="162.56" y="15.24" size="1.778" layer="95" rot="R180"/>
+<label x="177.8" y="15.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="1B"/>
@@ -10052,11 +10059,11 @@ CC BY-SA</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="175.26" y1="-15.24" x2="175.26" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-15.24" x2="180.34" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="SER"/>
-<wire x1="175.26" y1="-43.18" x2="149.86" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-43.18" x2="149.86" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="QH'"/>
-<wire x1="149.86" y1="-15.24" x2="175.26" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="-15.24" x2="180.34" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="B3_P1" class="0">
@@ -10203,7 +10210,7 @@ CC BY-SA</text>
 <segment>
 <pinref part="U$5" gate="G$1" pin="QA"/>
 <wire x1="149.86" y1="-38.1" x2="162.56" y2="-38.1" width="0.1524" layer="91"/>
-<label x="162.56" y="-38.1" size="1.778" layer="95" rot="R180"/>
+<label x="177.8" y="-38.1" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$6" gate="G$1" pin="1B"/>
