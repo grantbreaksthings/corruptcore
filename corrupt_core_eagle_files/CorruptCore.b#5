@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.500000001" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -157,13 +157,13 @@
 <board>
 <plain>
 <wire x1="0" y1="0" x2="100" y2="0" width="0.1524" layer="20"/>
-<wire x1="100" y1="0" x2="100" y2="100" width="0.1524" layer="20"/>
-<wire x1="100" y1="100" x2="0" y2="100" width="0.1524" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0.1524" layer="20"/>
-<hole x="3.5" y="3.5" drill="4.826"/>
-<hole x="96" y="4" drill="4.826"/>
-<hole x="96.5" y="54.5" drill="4.826"/>
-<hole x="3.5" y="54.5" drill="4.826"/>
+<wire x1="100" y1="0" x2="100" y2="58" width="0.1524" layer="20"/>
+<wire x1="100" y1="58" x2="0" y2="58" width="0.1524" layer="20"/>
+<wire x1="0" y1="58" x2="0" y2="0" width="0.1524" layer="20"/>
+<hole x="3" y="3" drill="4.826"/>
+<hole x="97" y="3" drill="4.826"/>
+<hole x="97" y="55" drill="4.826"/>
+<hole x="3" y="55" drill="4.826"/>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
@@ -2027,15 +2027,15 @@ design rules under a new name.</description>
 <element name="QP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="52.5" y="39"/>
 <element name="QP3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="52.5" y="36.5"/>
 <element name="QP4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="52.5" y="34"/>
-<element name="U8" library="CorruptCore" package="SOT23-5L" value="LTC1799" x="71" y="63"/>
-<element name="FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="90.5" y="61.5"/>
-<element name="DIV" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="78.5" y="50"/>
-<element name="5V@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="96" y="44"/>
-<element name="GND@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="81.5" y="40.5"/>
-<element name="FREQSET" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" value="user" x="86.5" y="50.5"/>
-<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" value="100nF" x="80.5" y="63.5"/>
-<element name="FP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="3" y="-13"/>
-<element name="FP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="3" y="-29.5"/>
+<element name="U8" library="CorruptCore" package="SOT23-5L" value="LTC1799" x="80.5" y="41" rot="R90"/>
+<element name="FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="96.5" y="38"/>
+<element name="DIV" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="75.5" y="41.5"/>
+<element name="5V@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="74.5" y="44.5" rot="R90"/>
+<element name="GND@FREQ" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="76.5" y="44.5" rot="R90"/>
+<element name="FREQSET" library="resistor" library_urn="urn:adsk.eagle:library:348" package="0207/7" value="user" x="89.5" y="44.5" rot="R180"/>
+<element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0805" value="100nF" x="83" y="40" rot="MR180"/>
+<element name="FP2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="96.5" y="44.5"/>
+<element name="FP1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="1,6/0,8" value="" x="96.5" y="42"/>
 </elements>
 <signals>
 <signal name="+5V">
@@ -2059,12 +2059,12 @@ design rules under a new name.</description>
 <contactref element="U8" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="FP1" pad="1"/>
-<wire x1="70.05" y1="61.7" x2="79.55" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="96" y1="44" x2="79.55" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="96" y1="32.5" x2="96" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="81.8" y1="40.05" x2="82.05" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="74.5" y1="44.5" x2="82.05" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="32.5" x2="74.5" y2="44.5" width="0" layer="19" extent="1-1"/>
 <wire x1="96" y1="23" x2="96" y2="32.5" width="0" layer="19" extent="1-1"/>
 <wire x1="96" y1="13.5" x2="96" y2="23" width="0" layer="19" extent="1-1"/>
-<wire x1="38.445" y1="31.4" x2="70.05" y2="61.7" width="0" layer="19" extent="1-1"/>
+<wire x1="38.445" y1="31.4" x2="81.8" y2="40.05" width="0" layer="19" extent="1-1"/>
 <wire x1="30.825" y1="31.4" x2="38.445" y2="31.4" width="0" layer="19" extent="1-1"/>
 <wire x1="25.445" y1="31.4" x2="30.825" y2="31.4" width="0" layer="19" extent="1-1"/>
 <wire x1="23.5" y1="29.016" x2="25.445" y2="31.4" width="0" layer="19" extent="1-16"/>
@@ -2077,7 +2077,7 @@ design rules under a new name.</description>
 <wire x1="28.5" y1="9.55" x2="18.23" y2="16.19" width="0" layer="19" extent="1-1"/>
 <wire x1="28" y1="5.5" x2="28.5" y2="9.55" width="0" layer="19" extent="1-1"/>
 <wire x1="37" y1="11.45" x2="28.5" y2="9.55" width="0" layer="19" extent="1-16"/>
-<wire x1="3" y1="-29.5" x2="28" y2="5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="96.5" y1="42" x2="28" y2="5.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="8"/>
@@ -2138,9 +2138,9 @@ design rules under a new name.</description>
 <wire x1="29.92" y1="49.9022" x2="29.555" y2="36.6" width="0" layer="19" extent="1-1"/>
 <wire x1="15.92" y1="49.9022" x2="16.555" y2="36.6" width="0" layer="19" extent="1-1"/>
 <wire x1="1.92" y1="49.9022" x2="3.555" y2="36.6" width="0" layer="19" extent="1-1"/>
-<wire x1="71" y1="61.7" x2="2.2488" y2="7.7394" width="0" layer="19" extent="1-1"/>
-<wire x1="81.5" y1="40.5" x2="71" y2="61.7" width="0" layer="19" extent="1-1"/>
-<wire x1="81.45" y1="63.5" x2="81.5" y2="40.5" width="0" layer="19" extent="1-1"/>
+<wire x1="81.8" y1="41" x2="2.2488" y2="7.7394" width="0" layer="19" extent="1-1"/>
+<wire x1="76.5" y1="44.5" x2="81.8" y2="41" width="0" layer="19" extent="1-1"/>
+<wire x1="83.95" y1="40" x2="76.5" y2="44.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET">
 <contactref element="R1" pad="2"/>
@@ -2615,22 +2615,22 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="U8" pad="5"/>
 <contactref element="FREQ" pad="1"/>
-<wire x1="70.05" y1="64.3" x2="90.5" y2="61.5" width="0" layer="19" extent="1-1"/>
+<wire x1="79.2" y1="40.05" x2="96.5" y2="38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="U8" pad="4"/>
 <contactref element="DIV" pad="1"/>
-<wire x1="71.95" y1="64.3" x2="78.5" y2="50" width="0" layer="19" extent="1-1"/>
+<wire x1="79.2" y1="41.95" x2="75.5" y2="41.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="FREQSET" pad="2"/>
 <contactref element="U8" pad="3"/>
-<wire x1="71.95" y1="61.7" x2="90.31" y2="50.5" width="0" layer="19" extent="1-1"/>
+<wire x1="81.8" y1="41.95" x2="85.69" y2="44.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="FREQSET" pad="1"/>
 <contactref element="FP2" pad="1"/>
-<wire x1="3" y1="-13" x2="82.69" y2="50.5" width="0" layer="19" extent="1-1"/>
+<wire x1="96.5" y1="44.5" x2="93.31" y2="44.5" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
